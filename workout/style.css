@@ -1,0 +1,65 @@
+
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+
+}
+.p-container{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+}
+.main-container
+{
+   display: none;
+   position: fixed;
+   bottom: 0px;
+   top: 0px;
+   right: 0px;
+   left: 0px;
+   margin: auto;
+   height: 400px;
+   width: 300px;
+   background-color: black;
+   color: white;
+}
+
+.main-container h2{
+    font-size: 2rem;
+    padding-left: 18px;
+    
+}
+#btn-ref:hover{
+    color: red;
+}
+#btn-ref{
+    margin-left: 258px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    border: none;
+}
+.p-content{
+    font-size: 1rem;
+    margin: 20px;
+    margin-top: unset;
+}
+form input{
+    margin: 7px;
+    margin-left: 11px;
+    width: 266px;
+    height: 24px;
+    font-size: 1rem;
+}
+.model-btn{
+    height: 34px;
+    width: 130px;
+    border-radius: 7px;
+    margin: 5px;
+}
+.modal-inner-loading{
+    text-align: center;
+}
